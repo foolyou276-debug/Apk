@@ -5,7 +5,6 @@
     android:orientation="vertical"
     android:background="#000000">
 
-    <!-- Device header bar -->
     <TextView
         android:id="@+id/tvHeader"
         android:layout_width="match_parent"
@@ -16,7 +15,6 @@
         android:padding="10dp"
         android:background="#0D1117"/>
 
-    <!-- Terminal output -->
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
@@ -37,7 +35,6 @@
 
     </ScrollView>
 
-    <!-- Input bar -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,7 +58,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="command..."
-            android:hintTextColor="#333355"
             android:textColor="#33FF33"
             android:textSize="14sp"
             android:fontFamily="monospace"
